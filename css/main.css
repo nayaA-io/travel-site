@@ -35,7 +35,6 @@
   text-decoration: none;
 }
 
-/* Style the hero image */
 .hero__img img {
   max-width: 100%;
   height: auto;
@@ -119,7 +118,7 @@
   }
 
   .hero__img img {
-    margin: 10px 0;
+    display: none;
   }
 
   .recommendations__title {

@@ -53,11 +53,28 @@
   background-color: #fefaf5;
 }
 
-/*.schedule__title::after {
-  content: " ";
-  width: 200px; 
-  height: 4px; 
-  background-color: #e60b0b; 
-  border-radius: 2px;
+@media screen and (max-width: 768px) {
+  .hawaii-hero {
+    background-image: url(/assets/Images/hawaii.jpg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hawaii-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* height: 100vh; */
+    gap: 15px;
+    margin-top: 50px;
+  }
+
+  .schedule {
+    background-color: white;
+    width: 270px;
+    height: 370px;
+    border-radius: 5px;
+  }
 }
- */

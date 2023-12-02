@@ -41,55 +41,61 @@ ul.navbar__list {
   margin-right: 20px;
 }
 
-/* .nav__item a:hover {
-  text-decoration: underline;
-  background-color: #b36521;
-  color: #ffffff;
-}
-.nav__item a:active {
-  background: #f1d74c;
-  color: #ffffff;
+.nav__item a:hover {
+  width: 10px;
+  border-bottom: 3px solid #db7a4e;
 }
 
 .nav__item a:active {
-  color: #ffffff;
-  background: rgb(76, 241, 202);
-  text-decoration: underline;
+  width: 10px;
+  border-bottom: 3px solid #db7a4e;
+}
 
-} */
+.nav__item a:current:link {
+  width: 10px;
+  border-bottom: 3px solid #db7a4e;
+}
 
-/* .nav__item a:hover {
-    text-decoration: underline;
-    color: pink;
-    } */
+.nav__item a:visited {
+  width: 10px;
+  border-bottom: 3px solid #db7a4e;
+}
 
-/* .nav__item a:visited {
-    text-decoration: underline;
-    color: pink;
-    } */
+.nav__item a:link:current {
+  width: 10px;
+  border-bottom: 3px solid #db7a4e;
+}
 
-/* .nav__item a:link {
-    text-decoration: underline;
-    color: pink;
+/* Media query*/
+
+@media screen and (max-width: 768px) {
+  .navbar__logo--link {
+    font-size: 1.2rem;
+    color: #335576;
+    margin: 0 0 0 30px;
   }
- */
+
+  ul.navbar__list {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    margin: 0 0;
+  }
+
+  ul.navbar__list {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    margin: 0 0px;
+  }
+}
 
 /**************************************************** FOOTER  */
-
-/* Adjusted margin for better spacing on smaller screens */
-.socials--img img {
-  width: 30px;
-  padding: 5px 15px 0 0; /* Adjusted padding for better spacing */
-  margin-top: 22px;
-}
-
-/* Added media query for responsiveness */
 
 .footer__content {
   display: flex;
   justify-content: flex-end;
   background-color: #fefaf5;
-  marign-bottom: 20px;
   padding: 0 200px;
 }
 
@@ -141,11 +147,23 @@ ul.navbar__list {
   width: 18px;
 }
 
+/* Media query*/
+
 @media screen and (max-width: 768px) {
   .footer__content {
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 20px;
+  }
+
+  .contacts {
+    margin: 10px 0 0 5px;
+  }
+
+  .hours--plan {
+    display: flex;
+    flex-direction: column;
   }
 
   .hours--plan span {
