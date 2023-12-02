@@ -1,0 +1,63 @@
+.greece-hero {
+  background-image: url(/assets/Images/greece.jpg);
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+
+.greece-title {
+  font-size: 5rem;
+  margin: 0;
+  padding: 125px 0 15px 75px;
+  color: #fff;
+}
+
+.greece-content {
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */
+  gap: 45px;
+  margin-top: 50px;
+}
+
+.schedule__title {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.schedule__line {
+  height: 2.5px;
+  background-color: #333;
+  border-radius: 2px;
+  margin: 0 20px;
+}
+
+.schedule {
+  background-color: white;
+  width: 270px;
+  height: 370px;
+  border-radius: 5px;
+}
+
+.schedule__content {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.activities {
+  list-style: none;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 15px 20px;
+  background-color: #fefaf5;
+}
+
+/*.schedule__title::after {
+      content: " ";
+      width: 200px; 
+      height: 4px; 
+      background-color: #e60b0b; 
+      border-radius: 2px;
+    }
+     */

@@ -1,0 +1,155 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/**************************************** NAVIGATION BAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffff;
+  position: fixed;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar__logo--link {
+  font-size: 1.5rem;
+  color: #335576;
+  margin: 0 0 0 80px;
+}
+
+ul.navbar__list {
+  display: flex;
+  list-style-type: none;
+  width: 50%;
+  margin: 0 50px;
+}
+
+.nav__item a {
+  color: black;
+  margin-right: 20px;
+}
+
+/* .nav__item a:hover {
+  text-decoration: underline;
+  background-color: #b36521;
+  color: #ffffff;
+}
+.nav__item a:active {
+  background: #f1d74c;
+  color: #ffffff;
+}
+
+.nav__item a:active {
+  color: #ffffff;
+  background: rgb(76, 241, 202);
+  text-decoration: underline;
+
+} */
+
+/* .nav__item a:hover {
+    text-decoration: underline;
+    color: pink;
+    } */
+
+/* .nav__item a:visited {
+    text-decoration: underline;
+    color: pink;
+    } */
+
+/* .nav__item a:link {
+    text-decoration: underline;
+    color: pink;
+  }
+ */
+
+/**************************************************** FOOTER  */
+
+/* Adjusted margin for better spacing on smaller screens */
+.socials--img img {
+  width: 30px;
+  padding: 5px 15px 0 0; /* Adjusted padding for better spacing */
+  margin-top: 22px;
+}
+
+/* Added media query for responsiveness */
+
+.footer__content {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fefaf5;
+  marign-bottom: 20px;
+  padding: 0 200px;
+}
+
+.footer--title {
+  color: #335576;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 30px 0 15px 0;
+}
+
+.footer--subtitle {
+  color: #db7a4e;
+  font-size: 0.7rem;
+  padding: 15px 0 15px 0;
+  margin: 0;
+}
+
+.contact--link {
+  color: black;
+  text-decoration: none;
+}
+
+.hours--plan {
+  display: flex;
+}
+
+.hours--plan span {
+  margin: 0 40px 5px 0px;
+  padding: 0 20px 20px 0;
+  font-size: 0.9rem;
+}
+
+.contacts {
+  margin: 20px 110px 50px 0;
+}
+.contact,
+.hours,
+.socials {
+  margin: 20px 15px 50px 0;
+}
+
+.socials--img img {
+  width: 30px;
+  padding: 5px 25px 0 0;
+  margin-top: 22px;
+}
+
+.socials--img a:nth-child(2) img {
+  width: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .hours--plan span {
+    margin: 0 10px 5px 0;
+    padding: 0 5px 5px 0;
+  }
+}
