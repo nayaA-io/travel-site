@@ -6,6 +6,14 @@
   background-size: cover;
 }
 
+.background {
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  z-index: -10000;
+}
+
 .hawaii-title {
   font-size: 5rem;
   margin: 0;
@@ -16,7 +24,6 @@
 .hawaii-content {
   display: flex;
   justify-content: center;
-  /* height: 100vh; */
   gap: 45px;
   margin-top: 50px;
 }
@@ -54,19 +61,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  .hawaii-hero {
-    background-image: url(/assets/Images/hawaii.jpg);
-    width: 100%;
-    height: 800px;
-    background-position: center;
-    background-size: cover;
-  }
-
   .hawaii-content {
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
-    /* height: 100vh; */
     gap: 15px;
     margin-top: 50px;
   }

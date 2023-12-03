@@ -16,7 +16,6 @@
 .greece-content {
   display: flex;
   justify-content: center;
-  /* height: 100vh; */
   gap: 45px;
   margin-top: 50px;
 }
@@ -53,11 +52,19 @@
   background-color: #fefaf5;
 }
 
-/*.schedule__title::after {
-      content: " ";
-      width: 200px; 
-      height: 4px; 
-      background-color: #e60b0b; 
-      border-radius: 2px;
-    }
-     */
+@media screen and (max-width: 768px) {
+  .greece-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+  }
+
+  .schedule {
+    background-color: white;
+    width: 270px;
+    height: 370px;
+    border-radius: 5px;
+  }
+}

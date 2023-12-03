@@ -62,7 +62,7 @@
   width: 21%;
 }
 
-.recommendation--img {
+.recommendation__img {
   width: 95%;
   height: auto;
   margin: 20px;
@@ -73,7 +73,7 @@
   transition: all 1s ease-out;
 }
 
-.recommendation--img:hover {
+.recommendation__img:hover {
   transform: scale(1.1);
 }
 
@@ -118,7 +118,7 @@
   }
 
   .hero__img img {
-    display: none;
+    padding: 20px;
   }
 
   .recommendations__title {
